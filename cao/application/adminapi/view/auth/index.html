@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<select name="" id="">
+    {volist name="$data" id="v"}
+    <option value="">{:str_repeat("&nbsp;",($v.ff-1)*2)}{$v.cate_name}</option>
+    {/volist}
+</select>
+</body>
+</html>
